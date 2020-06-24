@@ -1,15 +1,11 @@
-### Date created
-Include the date you created this project and README file.
+### 24th June, 2020
 
-### Project Title
-Replace the Project Title
+### BIKE SHARING 
 
 ### Description
-Describe what your project is about and what it does
+This project is refactored version of master branch
 
 ### Files used
-Include the files used
+Explore_bikeshare_data.r
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
