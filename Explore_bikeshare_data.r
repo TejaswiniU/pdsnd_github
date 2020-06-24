@@ -26,7 +26,7 @@ ggplot(aes(Data_C),data=ny)+geom_histogram(binwidth=1)+
       ggtitle('Most common month') +
       labs(x = "Month") +scale_x_continuous(breaks=seq(1,12,1))
 
-
+#used summary() to get overall stats
 summary(Data_C)
 
 # 2. Popular start station in chicago
@@ -39,6 +39,7 @@ x<-subset(chicago.sum,chicago.sum>100&chicago.sum<3500)
 barplot(x,xlab="Station",col="blue",ylab="Count",
 main="Popular Start stations",border="black")
 
+#used summary() to get overall stats
 summary(x)
 
 # 3. Average Trip duration by people in Chicago,New York & Washington
@@ -57,7 +58,8 @@ y = c(timeDuration_City(chi,ny,wash, 'Chicago',  'New York','Washington'))
 x=c('Chicago',  'New York','Washington')
 
 paste(paste('City ',c(1,2,3),sep=" "),y,sep=": ")
-  
+
+#used summary() to get overall stats
 summary(chi$Trip.Duration)
 summary(subset(ny$Trip.Duration,!is.na(ny$Trip.Duration)))
 summary(wash$Trip.Duration)
