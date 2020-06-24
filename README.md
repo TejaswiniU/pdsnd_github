@@ -23,4 +23,6 @@ Washington:https://www.capitalbikeshare.com/system-data
 #Language Used
 * R Programming 
 
+#Software
+* jupyter notebook
 
