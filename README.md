@@ -1,5 +1,4 @@
-### Date created
-Include the date you created this project and README file.
+### 24th June, 2020
 
 ### BIKE SHARE 
 
